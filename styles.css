@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+
+* {
+ margin: 0;
+ padding:0;
+ box-sizing: border-box;
+}
+/* NAVBAR */
+nav {
+ text-align: center;
+ background: #f5ece5; 
+ padding: 20px;
+}
+li {
+  display:inline; 
+  padding:20px;
+  justify-content: center;
+}
+a {
+  text-decoration:none;
+  color: #9A9B95;
+  text-transform: uppercase;
+  font-family: 'Scheherazade New', serif;  
+}
+a:hover {
+  color: #B8CB57;
+}
+/* HOME PAGE */
+.home-img {
+    display: block;
+    margin: 0 auto;
+}
+h2{ 
+  text-align: center;
+  font-family: 'Scheherazade New', serif;
+  margin-top:-90px;
+  color: #9A9B95;
+  font-size: 20px;
+}
+  /*About Section */
+.container2 {
+  display: flex;
+
+} 
+
+p {
+    color:#9A9B95;
+    padding: 5px;
+    font-family: 'Scheherazade New', serif; 
+}
+
+/* FORM */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background: url("https://wallpaperaccess.com/full/643659.jpg");
+  min-height: 50%;
+}
+form {
+  margin: 0 auto;
+  background-color: khaki;
+  padding: 40px 80px;
+  background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm281-adj-032-d.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=845c3d795b3106a07852a101e5048a0d");
+
+}
+
+label {
+  display: flex;
+  font-family: 'Scheherazade New', serif;
+  font-size: 20px;
+}
+input {
+  padding: 15px;
+}
+.form-group p {
+  font-family:'Scheherazade New', serif; 
+  font-size: 20px;
+  color: #000;
+}
+textarea {
+  min-height: 125px;
+  width: 100%;
+}
+button {
+  padding: 10px;
+  background-color: #E6C597;
+  box-shadow: #D0A973;
+  border: none;
+
+}
+button:hover {
+  background: rgba(235, 218, 73, 0.8);
+}
+/* MEDIA QUERIES */
+@media  (max-width: 480px) {
+.home-img {
+  width: 300px;
+}
+
+li {
+ display: block; 
+ padding: 5px;
+}
+h2 {
+ font-size: 20px;
+}
+.about-img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+
+
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+}
+}
+
